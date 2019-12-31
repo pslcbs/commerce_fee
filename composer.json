@@ -10,6 +10,7 @@
     ],
     "require": {
       "drupal/commerce": "*",
-      "inline_entity_form": "*"
+      "inline_entity_form": "*",
+      "composer/installers": "~1.0"
     }
 }
