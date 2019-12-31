@@ -1,0 +1,15 @@
+{
+    "name": "jacobembree/commerce_fee",
+    "description": "A fork of lisastreeter/commerce_fee for adding fees to commerce orders on Drupal",
+    "type": "drupal-module",
+    "authors": [
+        {
+            "name": "Jacob Embree",
+            "email": "jacob.embree@stlouisintegration.com"
+        }
+    ],
+    "require": {
+      "drupal/commerce": "*",
+      "inline_entity_form": "*"
+    }
+}
