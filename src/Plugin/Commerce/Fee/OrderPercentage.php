@@ -38,7 +38,7 @@ class OrderPercentage extends OrderFeeBase {
       if (isset($amounts[$order_item->id()])) {
         $order_item->addAdjustment(new Adjustment([
           'type' => 'fee',
-          'label' => $promotion->getDisplayName() ?: $this->t('Fee'),
+          'label' => $fee->getDisplayName() ?: $this->t('Fee'),
           'amount' => $amounts[$order_item->id()],
           'percentage' => $percentage,
           'source_id' => $fee->id(),
